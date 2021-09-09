@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className='flex font-sans flex-col-reverse min-h-screen sm:flex-row'>
       {/* navigation */}
-      <div className='bg-secondary sm:bg-primary flex w-full sm:w-64 sm:flex-col py-2 px-4 sm:px-8 sm:py-10'>
+      <div className='bg-secondary fixed bottom-0 sm:static sm:bg-primary flex w-full sm:w-64 sm:flex-col py-2 px-4 sm:px-8 sm:py-10'>
         {/* logo */}
         <div className='hidden sm:flex'>
           <Logo />
