@@ -7,8 +7,8 @@ export const Assets = () => (
     xmlns='http://www.w3.org/2000/svg'
   >
     <path
-      fill-rule='evenodd'
-      clip-rule='evenodd'
+      fillRule='evenodd'
+      clipRule='evenodd'
       d='M5.23859 16.9166H12.1951C14.7504 16.9166 16.7107 15.9937 16.1539 12.279L15.5056 7.24463C15.1623 5.39108 13.98 4.6817 12.9426 4.6817H4.46056C3.40793 4.6817 2.29427 5.44448 1.89763 7.24463L1.24927 12.279C0.776346 15.5741 2.68329 16.9166 5.23859 16.9166Z'
       stroke='#A5A2B8'
       strokeWidth='1.5'
