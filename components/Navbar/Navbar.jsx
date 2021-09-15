@@ -8,7 +8,7 @@ import { logoHeader as LogoHeader } from '../UI/LogoHeader';
 import { Button } from '../UI/Button';
 
 export const Navbar = () => (
-  <div className='bg-tableDark fixed bottom-0 sm:left-0 sm:h-screen z-10 md:bg-primary flex w-full sm:w-16 md:w-64 sm:flex-col py-2 px-4 md:px-8 md:py-10'>
+  <div className='bg-secondary fixed bottom-0 sm:left-0 sm:h-screen z-10 md:bg-primary flex w-full sm:w-16 md:w-64 sm:flex-col py-2 px-4 md:px-8 md:py-10'>
     {/* logo */}
     <div className='hidden md:flex'>
       <LogoHeader />

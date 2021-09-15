@@ -15,7 +15,7 @@ export const Main = () => (
       <div className='mr-12 mb-12'>
         <p className='font-medium text-lg'>Bitcoin</p>
         <hr className='w-4 border-2 rounded mt-1 border-secondary' />
-        <div className='bg-gradient-to-br from-tableLight to-tableDark flex flex-col text-white w-72 h-44 p-4 rounded-lg mt-5 shadow-2xl'>
+        <div className='bg-gradient-to-br from-primary to-secondary flex flex-col text-white w-72 h-44 p-4 rounded-lg mt-5 shadow-2xl'>
           <div className='flex justify-between align-bottom'>
             <div>
               <div className='text-2xl'>$</div>
@@ -51,7 +51,7 @@ export const Main = () => (
       <div className='mr-12 mb-12'>
         <p className='font-medium text-lg'>Ethereum</p>
         <hr className='w-4 border-2 rounded mt-1 border-secondary' />
-        <div className='bg-gradient-to-br from-tableLight to-tableDark flex flex-col text-white w-72 h-44 p-4 rounded-lg mt-5 shadow-2xl'>
+        <div className='bg-gradient-to-br from-primary to-secondary flex flex-col text-white w-72 h-44 p-4 rounded-lg mt-5 shadow-2xl'>
           <div className='flex justify-between align-bottom'>
             <div>
               <div className='text-2xl'>$</div>
@@ -99,7 +99,7 @@ export const Main = () => (
       <h1 className='text-2xl font-bold uppercase'>Activity</h1>
       <p className='text-md mt-2 font-medium'>More Activity &#8594;</p>
     </div>
-    <table className='w-full rounded-xl text-left md:text-right text-white bg-gradient-to-br from-tableLight to-tableDark'>
+    <table className='w-full rounded-xl text-left md:text-right text-white bg-gradient-to-br from-secondary to-secondary'>
       <thead className='border-b-2 border-white'>
         <th className='pb-4 pt-6 pl-4 md:pl-6 w:4/12 md:w-3/12 text-left'>
           Transactions
