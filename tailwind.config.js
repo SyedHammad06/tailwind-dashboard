@@ -1,7 +1,11 @@
 const colors = require('tailwindcss/colors');
 
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './public/svg/**/*.{js, ts, jsx, tsx}',
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
@@ -24,7 +28,17 @@ module.exports = {
       light: '#A5A2B8',
       dark: '#352E5B',
       white: colors.white,
+      red: colors.red,
+      green: colors.green,
+      gray: colors.gray,
+      black: colors.black,
     },
+    gradientColorStops: (theme) => ({
+      ...theme('colors'),
+      primary: '#e5e4ee',
+      light: '#A5A2B8',
+      secondary: '#352E5B',
+    }),
   },
   variants: {
     extend: {},
