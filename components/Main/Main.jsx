@@ -110,11 +110,11 @@ export const Main = () => (
         <th className='hidden sm:table-cell p-4 sm:w-3/12'>Date</th>
       </thead>
       <tr>
-        <td className='text-left pt-4 pb-2 pl-4 sm:pl-6 flex items-center'>
+        <td className='text-left pt-4 pb-2 pl-4 pr-1 sm:pl-6 flex items-center'>
           <Image src='/eth.png' alt='ethereum img' width='40' height='40' />
           <p className='ml-4'>Ethereum Purchased</p>
         </td>
-        <td>0.0154 ETH</td>
+        <td className='p-1 sm:p-0'>0.0154 ETH</td>
         <td className='pr-2 sm:pr-0'>USD $10</td>
         <td className='hidden sm:table-cell'>Pending</td>
         <td className='hidden py-2 pr-6 sm:table-cell'>February 21, 2021</td>
@@ -124,7 +124,7 @@ export const Main = () => (
           <Image src='/bitcoin.png' alt='bitcoin img' width='40' height='40' />
           <p className='ml-4'>Bitcoin Purchased</p>
         </td>
-        <td>0.3 BTC</td>
+        <td className='p-1 sm:p-0'>0.3 BTC</td>
         <td className='pr-2 sm:pr-0'>USD $140</td>
         <td className='hidden sm:table-cell'>Done</td>
         <td className='py-2 pr-6 hidden sm:table-cell'>February 14, 2021</td>
@@ -134,7 +134,7 @@ export const Main = () => (
           <Image src='/bitcoin.png' alt='bitcoin img' width='40' height='40' />
           <p className='ml-4'>Bitcoin Purchased</p>
         </td>
-        <td>0.0025 BTC</td>
+        <td className='p-1 sm:p-0'>0.0025 BTC</td>
         <td className='pr-2 sm:pr-0'>USD $56</td>
         <td className='hidden sm:table-cell'>Done</td>
         <td className='py-2 pr-6 hidden sm:table-cell'>January 14, 2021</td>
