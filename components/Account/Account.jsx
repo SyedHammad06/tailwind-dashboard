@@ -4,7 +4,7 @@ import { Button } from '../UI/Button';
 import { logoHeader as LogoHeader } from '../UI/LogoHeader';
 
 export const Account = () => (
-  <div className='border-b sm:fixed sm:right-0 sm:h-screen flex flex-col bg-primary sm:bg-white items-center sm:border-l w-full sm:w-64 sm:px-8 sm:py-10'>
+  <div className='border-b sm:fixed sm:right-0 sm:h-screen flex flex-col bg-primary sm:bg-white items-center sm:border-l w-full sm:w-60 md:w-64 sm:px-8 sm:py-10'>
     {/* profile */}
     <div className='sm:hidden absolute top-8 left-4'>
       <Reports dark={true} large={true} />

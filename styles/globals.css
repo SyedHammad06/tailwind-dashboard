@@ -24,6 +24,12 @@
   scrollbar-width: none; /* Firefox */
 }
 
+@media (max-width: 768px) {
+  .mainWidth {
+    width: calc(100% - 16rem);
+  }
+}
+
 @media (max-width: 640px) {
   .mainWidth {
     width: 100%;

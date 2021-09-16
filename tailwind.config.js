@@ -11,6 +11,8 @@ module.exports = {
     colors: {
       primary: '#e5e4ee',
       secondary: '#181623',
+      tableLight: '#2b2b2c',
+      tableDark: '#040113',
       white: colors.white,
       gray: colors.gray,
       red: colors.red,
@@ -39,6 +41,13 @@ module.exports = {
       light: '#A5A2B8',
       secondary: '#352E5B',
     }),
+    screens: {
+      sm: '640px',
+      md: '769px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+    },
   },
   variants: {
     extend: {},
